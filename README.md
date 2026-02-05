@@ -17,9 +17,9 @@ See [Requirements for enabling CloudWatch action based recovery](https://docs.aw
 ## Usage
 
 ```terraform
-module "static-site" {
+module "ec2_alarm" {
   source  = "cookielab/ec2-cloudwatch-alarms/aws"
-  version = "~> 1.0
+  version = "~> 0.0"
 
   ec2_instance_id = "i-08bdd64b00da931ed"
 
